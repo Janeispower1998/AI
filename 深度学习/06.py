@@ -7,7 +7,9 @@ y = torch.randn(64,10)  #目标值
 #随机初始化参数
 w1 = torch.randn(1000,100,requires_grad=True)
 w2 = torch.randn(100,10,requires_grad=True)
+
 lr = 1e-6
+
 for i in range(500):
 #步骤一：正向传播
     print(i)
